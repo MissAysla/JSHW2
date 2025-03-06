@@ -1,0 +1,40 @@
+/* Basic Page Styling */
+body {
+    margin: 2%;
+    border: 1px solid black;
+    background-color: #b3b3b3;
+    text-align: center;
+}
+
+/* Main Image Display */
+#image {
+    width: 575px;
+    height: 650px;
+    line-height: 650px;
+    border: 5px solid black;
+    margin: 20px auto;
+    background-color: #8e68ff;
+    background-image: url('');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    font-size: 150%;
+    text-align: center;
+}
+
+/* Thumbnail Styling */
+.preview {
+    width: 10%;
+    margin: 10px;
+    border: 5px solid black;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Hover Effect */
+.preview:hover {
+    transform: scale(1.2);
+    border-color: yellow;
+}
